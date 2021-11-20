@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+.topnav a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+.container {
+    position: absolute;
+    margin: 0px;
+    width: 100%;
+    background-color: #333;
+    top:0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  #section1 {
+    background-image: url('bg3.jpg');
+    background-size: cover;
+    height: 750px
+  }
+
+  .bg_text{
+    margin-left:30%;
+    margin-top: 25%;
+    font-size: 50px;
+    color:white;
+    position: absolute;
+  }
+  
+  #section2 {
+    height: 780px;
+    background:black
+  }
+  #section3 {
+    height: 950px;
+    background:black
+  }
+
+  .content{
+    text-align: justify;
+    font-size: 20px;
+    color: white;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+  }
+
+  .floating_image{
+    float: right;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .floating_image_galaxy{
+    float: right;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 1px;
+  }
+
+  .floating_image_left{
+    float:left;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+
+  
